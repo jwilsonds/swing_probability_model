@@ -1,0 +1,14 @@
+#Running the Model for other players:
+If you want to run the model for other players, you can run use the code in the file "voto swing probability" and make the following changes:
+```python
+playerid_lookup('votto','joey')
+```
+Here, you can input the name of the player you want to run the model on to get there MLBam key. This will return a dataframe with several different IDs for the 
+player, make sure to use the one under the column 'key_mlbam' for the next step.
+
+Once you have the ID you need, put it in place of Votto's ID in this line:
+```python
+data0 = statcast_batter('2015-03-15','2020-09-08',458015)
+```
+This will get the pitch-by-pitch data for the specified player that will be used to train the model. After this, you should be able to run the rest of the code
+with no additional changes.
