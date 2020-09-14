@@ -1,5 +1,5 @@
 # swing_probability_model
-This is the code for my swing probability model that I talk about in my article on Medium.
+This is the code for my swing probability model that I talk about in my article on [Medium](https://towardsdatascience.com/modeling-swing-probability-b02b5ab7fbb5?source=friends_link&sk=401db2f7d1049d51fabff5eac6ca286c).
 
 ## Analysis Summary
 This model attempts to determine whether or not an MLB hitter will swing at a given pitch. I trained the model using pitch-by-pitch data from StatCast and 
